@@ -305,12 +305,71 @@ table {
   opacity: 50%;
 }
 @media (max-width: 1230px) {
-  .App .navButton-top {
-    padding-right: 0px;
-    padding-left: 0px;
+  .App .left-rail__title {
+    font-size: 2.4rem;
   }
-  .App .navButton-bottom {
+  .App .left-top-btn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    position: absolute;
+    top: 152px;
+  }
+  .App .left-top-btn .navButton-top {
+    padding: 17px 5.5%;
+  }
+  .App .left-bottom-btn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    position: absolute;
+    top: 252px;
+  }
+  .App .left-bottom-btn .navButton-bottom {
     padding: 17px 0px;
+  }
+  .App .new-note-container {
+    width: 95%;
+  }
+  .App .new-note-container .new-note__content-input {
+    width: 85%;
+  }
+}
+@media (max-width: 500px) {
+  .App .left-rail__title {
+    font-size: 1.6rem;
+    padding-right: 5px;
+  }
+  .App .left-bottom-btn {
+    top: 302px;
+  }
+  .App .new-note-container {
+    width: 70%;
+  }
+  .App .new-note-container .new-note__content-input {
+    width: 85%;
+  }
+  .App .core-rail {
+    width: 95%;
+    padding-right: 10px;
+  }
+  .App .core-rail .note-list .note-list-note {
+    width: 96%;
+  }
+  .App .core-rail .note-list .note-list-note .note-list-note__title {
+    font-size: 1.6rem;
+  }
+  .App .core-rail .note-list .note-list-note .note-list-note__content {
+    font-size: 1rem;
+  }
+  .App .core-rail .view-note-container {
+    width: 90%;
+  }
+  .App .core-rail .edit-button {
+    right: 150px;
+  }
+  .App .core-rail .delete-button {
+    right: 75px;
   }
 }
 .new-note-container {
@@ -447,4 +506,7 @@ table {
   position: absolute;
   top: 55px;
   left: 20px;
+}
+#root {
+  background: #f3f3f3;
 }
