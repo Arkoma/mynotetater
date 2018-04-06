@@ -11,7 +11,7 @@ class LeftRail extends Component {
                 <Authenticator />
                 <h1 className="left-rail__title">
                     My Note-
-                    <img className="logo" src={tater} />
+                    <img className="logo" src={tater} alt="tater"/>
                 </h1>
             </div>
         )   
