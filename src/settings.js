@@ -1,4 +1,4 @@
 module.exports = 
 {
-  ROOT_URL: 'https://arcane-brushlands-25828.herokuapp.com'
+  ROOT_URL: 'http://34.217.204.98:5000'
 };
