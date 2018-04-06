@@ -18,6 +18,7 @@ class NoteList extends Component {
       return content;
     }
     render() {
+      console.log('hi there');
     return (
       <div className="note-list">
       <div className="note-list__title">Your Notes:</div>
