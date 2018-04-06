@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { ROOT_URL } from '../config.js';
+import { ROOT_URL } from '../settings.js';
 
 class NewNote extends Component {
   state = {

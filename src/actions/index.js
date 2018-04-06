@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { ROOT_URL } from '../config.js';
+import { ROOT_URL } from '../settings.js';
 axios.defaults.withCredentials = true;
 
 export const USER_REGISTERED = 'USER_REGISTERED';
