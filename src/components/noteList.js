@@ -22,7 +22,7 @@ class NoteList extends Component {
     return (
       <div className="note-list">
       <div className="note-list__title">Your Notes:</div>
-          { this.props.notes ? this.props.notes.map((note) => {
+          { this.props.notes.length > 0 ? this.props.notes.map((note) => {
             return (
               <div key={note._id}>
                 <NavLink className="note-list-note-link" to={`/note/${note.title}/${note.content}/${note._id}/`}>
