@@ -1,4 +1,4 @@
 module.exports = 
 {
-  ROOT_URL: 'http://34.217.204.98:5000'
+  ROOT_URL: 'https://34.217.204.98:5000'
 };
