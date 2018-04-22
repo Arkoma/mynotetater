@@ -19,12 +19,12 @@ class SignIn extends Component {
     const { handleSubmit } = this.props;
     return (
       !this.props.authenticated ?
-			<img src={tater} className="splash-tater" />
+			<img src={tater} className="splash-tater">
       <div className="popup">
       <div className="popup__inner">
 				<div className="auth__title">
 					Welcome to My Note
-					<img src={tater} alt="tater" />
+					<img src={tater} alt="tater">
 				</div>
 				<div className="auth__sub-title">
 					you have to be a registered user to use the app
