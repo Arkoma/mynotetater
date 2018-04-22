@@ -3,6 +3,7 @@ import { reduxForm, Field } from 'redux-form';
 import { login } from '../actions';
 import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
+import tater from '../images/tater.png';
 
 class SignIn extends Component {
   handleFormSubmit({ username, password }) {
@@ -18,8 +19,16 @@ class SignIn extends Component {
     const { handleSubmit } = this.props;
     return (
       !this.props.authenticated ?
+			<img src={tater} className="splash-tater" />
       <div className="popup">
       <div className="popup__inner">
+				<div className="auth__title">
+					Welcome to My Note
+					<img src={tater} alt="tater" />
+				</div>
+				<div className="auth__sub-title">
+					you have to be a registered user to use the app
+				</div>
         <h3>Please sign in </h3>
         <form onSubmit={handleSubmit(this.handleFormSubmit.bind(this))}>
           <fieldset>
@@ -29,6 +38,9 @@ class SignIn extends Component {
             <Field placeholder="password" name="password" component="input" type="password" />
           </fieldset>
           <button action="submit">Sign In</button>
+					<div className="auth__help-text">
+						Not yet registered?  Sign up for a free account!
+					</div>
           <NavLink to="/signup"> <button>Sign Up</button> </NavLink>
           {this.renderAlert()}
         </form>
