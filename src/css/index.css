@@ -529,6 +529,12 @@ table {
 }
 .auth__container input {
   border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.auth__container .auth__help-text {
+  align-self: left;
+  margin: 10px 0px;
 }
 .auth__container form {
   justifiy-content: center;
