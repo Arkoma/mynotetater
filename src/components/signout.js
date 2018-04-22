@@ -25,7 +25,7 @@ class SignOut extends Component {
   render() {
     return (
       <div className="popup">
-				<img src={tater} alt="tater" className="splash=tater"/>
+				<img src={tater} alt="tater" className="splash-tater"/>
 				<div className="popup__inner">
 					<div className="auth__container">
 						<div className="auth__title">
