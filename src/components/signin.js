@@ -23,8 +23,7 @@ class SignIn extends Component {
 				<img src={tater} className="splash-tater">
       <div className="popup__inner">
 				<div className="auth__title">
-					Welcome to My Note
-					<img src={tater} alt="tater">
+					Welcome to My Note Tater
 				</div>
 				<div className="auth__sub-title">
 					you have to be a registered user to use the app
