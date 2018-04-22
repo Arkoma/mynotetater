@@ -18,7 +18,7 @@ class SignUp extends Component {
     const { handleSubmit } = this.props;
     return (
       <div className="popup">
-				<img src={tater} className="splash-tater"/>
+				<img src={tater} className="splash-tater" alt="tater"/>
       <div className="popup__inner">
 				<div className="auth__container">
 					<div className="auth__title">
