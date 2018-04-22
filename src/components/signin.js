@@ -31,7 +31,6 @@ class SignIn extends Component {
 						</div>
 						<form onSubmit={handleSubmit(this.handleFormSubmit.bind(this))}>
 							<fieldset>
-								<label>Please sign in</label>
 								<Field placeholder="username" name="username" component="input" type="text" />
 							</fieldset>
 							<fieldset>
