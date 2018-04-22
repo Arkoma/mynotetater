@@ -546,10 +546,10 @@ table {
   left: 20px;
 }
 @media (max-width: 500px) {
-  .auth__title {
+  .auth__container .auth__title {
     font-size: 1.2rem;
   }
-  .auth__sub-title {
+  .auth__container .auth__sub-title {
     font-size: 1rem;
   }
 }
