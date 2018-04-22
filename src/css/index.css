@@ -501,6 +501,12 @@ table {
   top: 55px;
   left: 20px;
 }
+.splash-tater {
+  position: absolute;
+  top: 50%:
+	left: 50%;
+  height: vh100%;
+}
 .logout {
   display: flex;
   position: absolute;
