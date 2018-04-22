@@ -39,9 +39,8 @@ class SignIn extends Component {
 							</fieldset>
 							<button action="submit">Sign In</button>
 							<div className="auth__help-text">
-								Not yet registered?  Sign up for a free account!
+								Not yet registered?  <NavLink to="/signup">Sign up</NavLink> for a free account!
 							</div>
-							<NavLink to="/signup"> <button>Sign Up</button> </NavLink>
 							{this.renderAlert()}
 						</form>
 					</div>
