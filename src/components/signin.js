@@ -19,8 +19,8 @@ class SignIn extends Component {
     const { handleSubmit } = this.props;
     return (
       !this.props.authenticated ?
-			<img src={tater} className="splash-tater">
-      <div className="popup">
+			<div className="popup">
+				<img src={tater} className="splash-tater">
       <div className="popup__inner">
 				<div className="auth__title">
 					Welcome to My Note
