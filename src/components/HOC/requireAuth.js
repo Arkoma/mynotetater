@@ -13,10 +13,7 @@ export default ComposedComponent => {
       return (
         <div>
         {!this.props.authenticated ? 
-        <div className="auth">
-          <div className="auth--title">Welcome To NoteTater</div>
-          <div className="auth--subtitle">you must sign in to use the app</div> 
-          </div> :
+          null :
            <ComposedComponent />}
         </div>
       )
