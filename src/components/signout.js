@@ -18,21 +18,24 @@ class SignOut extends Component {
     }
     return [
       <li key={1}>
-        <NavLink to="/signin">Sign In</NavLink>
+				would you like to <NavLink to="/signin">sign in</NavLink> again?
       </li>,
-      <li key={2}>
-        <NavLink activeClassName="hideTitle" to="/signup">Sign Up</NavLink>
-      </li>
     ];
   }
   render() {
     return (
-      <div className="logout">
-        <div className="logout--message">You have signed out</div>
-        <div className="links">
-          <ul>{this.getLinks()}</ul>
-        </div>
-      </div>
+      <div className="popup">
+				<div className="popup__inner">
+					<div className="auth__container">
+						<div className="auth__title">
+							You have signed out
+						</div>
+						<div className="links">
+							<ul>{this.getLinks()}</ul>
+						</div>
+					</div>
+				</div>
+			</div>
     );
   };
 };
